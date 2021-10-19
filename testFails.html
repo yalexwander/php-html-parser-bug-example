@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="generator" content=
+          "HTML Tidy for HTML5 for Linux version 5.6.0">
+    <link rel="stylesheet" type="text/css" href=
+          "/tango/combined.css?20211013-0758">
+    <link rel="yandex-tableau-widget" href="/manifest.json">
+    <meta name="referrer" content="always">
+    <script type="text/javascript">
+      /*!
+      * $script.js Async loader & dependency manager
+      * https://github.com/ded/script.js
+      * (c) Dustin Diaz, Jacob Thornton 2011
+      * License: MIT
+      */
+      (function(e,d,f){typeof f.module!="undefined"&&f.module.exports?f.module.exports=d():typeof f.define!="undefined"&&f.define=="function"&&f.define.amd?define(e,d):f[e]=d()})("$script",function(){function y(f,e){for(var h=0,g=f.length;h<g;++h){if(!e(f[h])){return E}}return 1}function x(d,c){y(d,function(b){return !c(b)})}function w(p,k,h){function c(b){return b.call?b():K[b]}function q(){if(!--d){K[e]=1,f&&f();for(var b in I){y(b.split("|"),c)&&!x(I[b],c)&&(I[b]=[])}}}p=p[D]?p:[p];var g=k&&k.call,f=g?k:h,e=g?p.join(""):k,d=p.length;return setTimeout(function(){x(p,function(b){if(G[b]){return e&&(J[e]=1),G[b]==2&&q()}G[b]=1,e&&(J[e]=1),v(!L.test(b)&&H?H+b+".js":b,q)})},0),w}function v(h,g){var b=N.createElement("script"),a=E;b.onload=b.onerror=b[z]=function(){if(b[B]&&!/^c|loade/.test(b[B])||a){return}b.onload=b[z]=null,a=1,G[h]=2,g()},b.async=1,b.src=h,M.insertBefore(b,M.firstChild)}var N=document,M=N.getElementsByTagName("head")[0],L=/^https?:\/\//,K={},J={},I={},H,G={},F="string",E=!1,D="push",C="DOMContentLoaded",B="readyState",A="addEventListener",z="onreadystatechange";return !N[B]&&N[A]&&(N[A](C,function u(){N.removeEventListener(C,u,E),N[B]="complete"},E),N[B]="loading"),w.get=v,w.order=function(f,e,h){(function g(a){a=f.shift(),f.length?w(a,g):w(a,e,h)})()},w.path=function(b){H=b},w.ready=function(f,d,h){f=f[D]?f:[f];var g=[];return !x(f,function(b){K[b]||g[D](b)})&&y(f,function(b){return K[b]})?d():!function(b){I[b]=I[b]||[],I[b][D](d),h&&h(g)}(f.join("|")),w},w},this);
+                                                                                                                                                                                                                                                                            </script><!--[if lt IE 9]>
+                                                                                                                                                                                                                                                                                         <script src="/webjars/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript"></script>
+                                                                                                                                                                                                                                                                                         <![endif]-->
+
+                                                                                                                                                                                                                                                                                          <script type="text/javascript">
+                                                                                                                                                                                                                                                                                            $script('/webjars/jquery/1.12.3/jquery.min.js', 'jquery');
+
+                                                                                                                                                                                                                                                                                            $script.ready('jquery', function() {
+                                                                                                                                                                                                                                                                                            $script('/js/plugins.js?20211013-0758', 'plugins');
+                                                                                                                                                                                                                                                                                            $script('/js/lor.js?20211013-0758', 'lorjs');
+                                                                                                                                                                                                                                                                                            });
+
+                                                                                                                                                                                                                                                                                            $script('/js/highlight.pack.js', 'hljs');
+                                                                                                                                                                                                                                                                                            $script.ready(['jquery', 'hljs'], function() {
+                                                                                                                                                                                                                                                                                            $(function() {
+                                                                                                                                                                                                                                                                                            hljs.initHighlighting();
+                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                            });
+
+                                                                                                                                                                                                                                                                                          </script>
+                                                                                                                                                                                                                                                                                          <title>Оцените PHP-класс для роутинга — Web-development —
+                                                                                                                                                                                                                                                                                            Форум</title>
+                                                                                                                                                                                                                                                                                          <meta property="og:title" content="Оцените PHP-класс для роутинга">
+                                                                                                                                                                                                                                                                                          <meta property="og:image" content=
+                                                                                                                                                                                                                                                                                                "https://www.linux.org.ru/img/good-penguin.png">
+                                                                                                                                                                                                                                                                                          <meta name="twitter:card" content="summary">
+                                                                                                                                                                                                                                                                                          <meta name="twitter:site" content="@wwwlinuxorgru">
+                                                                                                                                                                                                                                                                                          <meta property="og:description" content="привет, друзья. пишу CMS с нуля, назвал её hacked))) делаю роутинг. оцените пожалуйста. API для работы выглядит следующим образом: Route::register( [ '/' =&gt; 'Home', '/user/$id/profile' =&gt; function ($id) {echo &quot;Вы указали &quot; . (int) $id . &quot; в адре...">
+                                                                                                                                                                                                                                                                                          <meta property="og:url" content=
+                                                                                                                                                                                                                                                                                                "https://www.linux.org.ru/forum/web-development/16595091">
+                                                                                                                                                                                                                                                                                          <link rel="canonical" href=
+                                                                                                                                                                                                                                                                                                "https://www.linux.org.ru/forum/web-development/16595091">
+                                                                                                                                                                                                                                                                                          <link rel="Previous" id="PrevLink" href=
+                                                                                                                                                                                                                                                                                                "/forum/web-development/16592047" title=
+                                                                                                                                                                                                                                                                                                "Подскажите бесплатный хостинг LAMP с поддержкой 3-х фреймворков:">
+                                                                                                                                                                                                                                                                                          <link rel="Next" id="NextLink" href=
+                                                                                                                                                                                                                                                                                                "/forum/web-development/16595970" title=
+                                                                                                                                                                                                                                                                                                "Как на PHP или Python или еще на чем разобрать как работают методы Http?">
+                                                                                                                                                                                                                                                                                          <link rel="alternate" title="Comments RSS" href=
+                                                                                                                                                                                                                                                                                                "/forum/web-development/16595091?output=rss" type=
+                                                                                                                                                                                                                                                                                                "application/rss+xml">
+                                                                                                                                                                                                                                                                                          <script type="text/javascript">
+                                                                                                                                                                                                                                                                                            $script.ready('lorjs', function() { initNextPrevKeys(); });
+                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                            $script('/js/realtime.js', "realtime");
+                                                                                                                                                                                                                                                                                            $script.ready('realtime', function() {
+                                                                                                                                                                                                                                                                                            startRealtimeWS(16595091, "/forum/web-development/16595091", 16596040, "wss://www.linux.org.ru:9000/");
+                                                                                                                                                                                                                                                                                            });
+                                                                                                                                                                                                                                                                                          </script>
+                                                                                                                                                                                                                                                                                          <link rel="search" title="Search L.O.R." href="/search.jsp">
+                                                                                                                                                                                                                                                                                          <meta name="referrer" content="always">
+                                                                                                                                                                                                                                                                                          <base href="https://www.linux.org.ru/">
+                                                                                                                                                                                                                                                                                          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+                                                                                                                                                                                                                                                                                          <meta name="viewport" content="initial-scale=1.0">
+                                                                                                                                                                                                                                                                                          <style>
+                                                                                                                                                                                                                                                                                            @media screen and (max-width: 480px) {
+                                                                                                                                                                                                                                                                                            .yandex-adaptive {
+                                                                                                                                                                                                                                                                                            min-height: 250px;
+                                                                                                                                                                                                                                                                                            width: 100%;
+                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                            @media screen and (min-width: 481px) {
+                                                                                                                                                                                                                                                                                            .yandex-adaptive { min-height: 90px; width: 100% }
+                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                            @media screen and (min-width: 1024px) {
+                                                                                                                                                                                                                                                                                            .yandex-adaptive { min-height: 120px; width: 100% }
+                                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                                          </style>
+  </head>
+  <body>
+    <div id="hd"><a id="sitetitle" href="/">LINUX.ORG.RU</a>
+      <div class="menu">
+        <div id="loginGreating">
+          <div id="regmenu" class="head"><a href=
+                                            "https://www.linux.org.ru/register.jsp">Регистрация</a> - <a id=
+                                                                                                         "loginbutton" href=
+                                                                                                         "https://www.linux.org.ru/login.jsp">Вход</a></div>
+          <form method="post" action=
+                "https://www.linux.org.ru/ajax_login_process" style="display: none"
+                id="regform" name="regform"><input type="hidden" name="csrf" value=
+                                                   "Z+D2QJNwn+oFaZVYCjOUrg=="> <label>Имя: <input type="text" name=
+                                                                                                  "nick" size="15" placeholder="nick или email" autocapitalize=
+                                                                                                  "off"></label> <label>Пароль: <input type="password" name="passwd"
+                                                                                                                                       size="15"></label> <input type="submit" value="Вход"> <input id=
+                                                                                                                                                                                                    "hide_loginbutton" type="button" value="Отмена"></form>
+        </div>
+        <ul>
+          <li><a href="/news/">Новости</a></li>
+          <li><a href="/gallery/">Галерея</a></li>
+          <li><a href="/forum/">Форум</a></li>
+          <li><a href="/tracker/">Трекер</a></li>
+          <li><a href="/search.jsp">Поиск</a></li>
+        </ul>
+      </div>
+    </div>
+    <div style="clear: both"></div>
+    <div id="bd">
+      <div class="messages" itemscope itemtype=
+           "http://schema.org/Article">
+        <article class="msg" id="topic-16595091">
+          <header>
+            <div class="msg-top-header"><span itemprop=
+                                              "articleSection"><a href="/forum/">Форум</a> — <a href=
+                                                                                                "/forum/web-development/">Web-development</a></span>  </div>
+            <h1 itemprop="headline"><a href=
+                                       "/forum/web-development/16595091">Оцените PHP-класс для
+                роутинга</a></h1>
+            <p class="tags">&nbsp;<a class="tag" rel="tag" href=
+                                     "/tag/php">php</a></p>
+          </header>
+          <div class="msg-container">
+            <div class="msg_body">
+              <div class="fav-buttons"><a id="favs_button" href="#"></a><br>
+                <span id="favs_count">0</span><br>
+                <a id="memories_button" href="#"></a><br>
+                <span id="memories_count">1</span></div>
+              <div itemprop="articleBody">
+                <p>привет, друзья. пишу CMS с нуля, назвал её hacked)))</p>
+                <p>делаю роутинг. оцените пожалуйста.</p>
+                <p>API для работы выглядит следующим образом:</p>
+                <div class="code">
+                  <pre class="language-php"><code>Route::register(
+                      [
+                      '/' =&gt; 'Home',
+                      '/user/$id/profile' =&gt; function ($id) {echo "Вы указали " . (int) $id . " в адресной строке";},
+                      '/blog/' =&gt; 'Blog::Index',
+                      'catch_all' =&gt; function () {die('404 - Not found.');}
+                      ]
+                      );
+
+                      Route::run('/');</code></pre></div>
+                <p>Метод Route::register принимает массив с данными в формате
+                  «путь» =&gt; «класс», «метод», «функция» или «омнонимная
+                  функция».</p>
+                <p>Если указать просто класс, то будет вызван метод
+                  $_SERVER['REQUEST_METHOD']. Например, если мы выполняем GET-запрос
+                  странички /home/, которая ссылается на класс Home, то будет
+                  выполнен new Home()-&gt;get(); соответственно для post будет вызван
+                  метод new Home()-&gt;post(); и так далее. Поэтому самому указывать
+                  GET, POST и т.д. нигде не нужно.</p>
+                <p>Так же, в URL можно передавать параметры функциям, например URL
+                  вида «/user/$id/profile» запишет в переменную $id реальное значение
+                  параметра из URL</p>
+                <p>В случае, если запрошенный адрес не соответствует ни одному из
+                  указанных шаблонов в массиве Route::register([]);, то будет
+                  предложено вызвать содержимое 'catch_all' из массива. Например,
+                  туда можно записать 404 ошибку.</p>
+                <p>Ну и в довершении всего, метод Route::run(); запускает на
+                  выполнение заданный REQUEST_URI.</p>
+                <div class="code">
+                  <pre class="language-php"><code>Route::run('/');
+
+                      Route::run('/blog/something-else-string/');
+
+                      Route::run(strtok($_SERVER['REQUEST_URI'], '?'));</code></pre></div>
+                <p>Вы можете сами указать там любой URI, таким образом из любого
+                  места в любом скрипте вызвать любую страничку. А можете оставить
+                  стандартный $_SERVER['REQUEST_URI'].</p>
+                <div class="code">
+                  <pre class="language-php"><code>&lt;?php
+
+                      class Route {
+                      static protected $instance = null;
+
+                      static private $routes = [];
+
+                      public function __construct() {}
+                      public function __destruct() {}
+                      public function __clone() {}
+
+                      static public function register($routes) {
+                      if (self::$instance == null) {
+                      self::$instance = new self;
+                      }
+
+                      if (is_array($routes)) {
+                      self::$routes = $routes;
+                      }
+                      }
+
+                      static public function run($route) {
+                      if (self::$instance == null) {
+                      self::$instance = new self;
+                      }
+
+                      $request_method = strtolower($_SERVER['REQUEST_METHOD']);
+                      $discovered_handler = null;
+                      $handler_instance = null;
+                      $catch_all = true;
+                      $path_args = [];
+                      $path_parts = explode('/', $route);
+
+                      foreach (self::$routes as $pattern =&gt; $handler_name) {
+                      $uri_parts = explode('/', $pattern);
+                      $uri_args = [];
+                      $uri_rebuild = [];
+
+                      for ($i = 0; $i &lt; sizeof($uri_parts); $i++) {
+                      if (isset($path_parts[$i])) {
+                      if (substr($uri_parts[$i], 0, 1) == '$') {
+                      $name = substr($uri_parts[$i], 1);
+                      $uri_args[$name] = $path_parts[$i];
+                      $uri_rebuild[] = $uri_parts[$i];
+                      }
+                      elseif ($path_parts[$i] == $uri_parts[$i]) {
+                      $uri_rebuild[] = $uri_parts[$i];
+                      }
+                      }
+                      }
+
+                      $uri_rebuild = implode('/', $uri_rebuild);
+
+                      if (isset(self::$routes[$uri_rebuild])) {
+                      $discovered_handler = $handler_name;
+                      $path_args = $uri_args;
+                      }
+                      }
+
+                      if ($discovered_handler) {
+                      if (is_string($discovered_handler)) {
+                      if (class_exists($discovered_handler)) {
+                      $handler_instance = new $discovered_handler();
+                      }
+                      }
+                      elseif (is_callable($discovered_handler)) {
+                      $handler_instance = $discovered_handler();
+                      }
+                      }
+
+                      if ($handler_instance) {
+                      if (method_exists($handler_instance, $request_method)) {
+                      $catch_all = false;
+                      call_user_func_array([$handler_instance, $request_method], $path_args);
+                      }
+                      }
+
+                      if ($catch_all) {
+                      if (isset(self::$routes['catch_all'])) {
+                      self::run('catch_all');
+                      }
+                      }
+
+                      }
+                      }
+
+                </code></pre></div>
+              </div>
+              <footer>
+                <div class="userpic"><img class="photo" src=
+                                          "/photos/40717:1793440489.png" alt="" width="124" height=
+                                          "114"></div>
+                <div class="sign"><a rel="author" itemprop="creator" href=
+                                     "/people/Spoofing/profile">Spoofing</a> <span class=
+                                                                                   "stars">★★★★★</span><br>
+                  <time datetime="2021-10-19T10:32:18.504+03:00" itemprop=
+                        "dateCreated">19.10.21 10:32:18</time></div>
+              </footer>
+              <div class="reply">
+                <ul id="topicMenu">
+                  <li><a href="comment-message.jsp?topic=16595091">Ответить
+                      <span class="hideon-phone">на это сообщение</span></a></li>
+                  <li><a href="/forum/web-development/16595091">Ссылка</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+    </div>
+    <footer id="ft">
+      <p id="ft-info"><a href="/about">О Сервере</a> - <a href=
+                                                          "/help/rules.md">Правила форума</a> - <a href=
+                                                                                                   "/help/lorcode.md">Правила разметки (LORCODE)</a> - <a href=
+                                                                                                                                                          "/help/markdown.md">Правила разметки (Markdown)</a><br>
+        <a href="https://github.com/maxcom/lorsource/issues">Сообщить об
+          ошибке</a><br>
+        <a href=
+           "https://www.linux.org.ru/">https://www.linux.org.ru/</a></p>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-2184304-1']);
+        _gaq.push(['_setCustomVar', 1, 'Authorized', 'false']);
+        _gaq.push(['_setCustomVar', 2, 'Style', 'tango']);
+        _gaq.push(['_setSiteSpeedSampleRate', 10]);
+        _gaq.push(['_gat._forceSSL']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = 'https://ssl.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script></footer>
+  </body>
+</html>
